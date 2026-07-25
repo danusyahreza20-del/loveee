@@ -410,3 +410,116 @@ p{
     }
 
 }
+
+/* =========================
+   BOUQUET PNG DECORATION
+========================= */
+
+
+.bouquet-img{
+
+    position:fixed;
+
+    bottom:-30px;
+
+    width:230px;
+
+    z-index:3;
+
+    pointer-events:none;
+
+    animation:bouquetFloat 5s ease-in-out infinite;
+
+}
+
+
+
+/* kiri dibuat lebih jatuh */
+
+.bouquet-left{
+
+    left:-30px;
+
+    transform:rotate(-18deg);
+
+}
+
+
+
+/* kanan arah berbeda */
+
+.bouquet-right{
+
+    right:-30px;
+
+    transform:rotate(17deg);
+
+    animation-delay:1.5s;
+
+}
+
+
+
+/* gambar PNG */
+
+.bouquet-img img{
+
+    width:100%;
+
+    height:auto;
+
+    display:block;
+
+}
+
+
+
+/* animasi kiri */
+
+@keyframes bouquetFloat{
+
+
+    0%,100%{
+
+        transform:translateY(0) rotate(-18deg);
+
+    }
+
+
+    50%{
+
+        transform:translateY(-12px) rotate(-12deg);
+
+    }
+
+}
+
+
+
+/* animasi kanan */
+
+.bouquet-right{
+
+    animation-name:bouquetFloatRight;
+
+}
+
+
+
+@keyframes bouquetFloatRight{
+
+
+    0%,100%{
+
+        transform:translateY(0) rotate(17deg);
+
+    }
+
+
+    50%{
+
+        transform:translateY(-12px) rotate(10deg);
+
+    }
+
+}
