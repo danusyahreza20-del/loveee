@@ -73,7 +73,7 @@ button.addEventListener("click", async () => {
 
             playing = true;
 
-            button.textContent = "Pause 🎵";
+            button.textContent = "belentiyy";
             message.textContent = "babyy kesayangannn abanggg yg paling wucuww";
 
         } catch (err) {
@@ -90,8 +90,8 @@ button.addEventListener("click", async () => {
 
         playing = false;
 
-        button.textContent = "Play 🎵";
-        message.textContent = "Klik Play untuk lanjutkan lagu 💕";
+        button.textContent = "pencekk iniy";
+        message.textContent = "sayangggg";
 
     }
 
