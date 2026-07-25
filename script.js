@@ -74,7 +74,7 @@ button.addEventListener("click", async () => {
             playing = true;
 
             button.textContent = "Pause 🎵";
-            message.textContent = "Aku bersyukur bisa mengenal kamu ❤️";
+            message.textContent = "babyy kesayangannn abanggg yg paling wucuww";
 
         } catch (err) {
 
