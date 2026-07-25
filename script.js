@@ -90,7 +90,7 @@ button.addEventListener("click", async () => {
 
         playing = false;
 
-        button.textContent = "pencekk iniy";
+        button.textContent = "pencekk agy";
         message.textContent = "sayangggg";
 
     }
