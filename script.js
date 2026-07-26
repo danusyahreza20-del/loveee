@@ -4,7 +4,7 @@ const message = document.querySelector(".message");
 const music = document.getElementById("music");
 
 // =======================
-// Cek status audio
+// cekkkkkkk
 // =======================
 
 music.addEventListener("loadeddata", () => {
@@ -33,7 +33,7 @@ music.addEventListener("error", () => {
 });
 
 // =======================
-// Animasi hati
+// snimasi
 // =======================
 
 setInterval(() => {
@@ -58,7 +58,7 @@ setInterval(() => {
 }, 300);
 
 // =======================
-// Tombol Play / Pause
+// pencek 
 // =======================
 
 let playing = false;
