@@ -8,28 +8,28 @@ const music = document.getElementById("music");
 // =======================
 
 music.addEventListener("loadeddata", () => {
-    console.log("✅ Audio berhasil dimuat");
+    console.log("audio berhasil dimuat");
 });
 
 music.addEventListener("canplay", () => {
-    console.log("▶️ Audio siap diputar");
+    console.log("audio siap diputar");
 });
 
 music.addEventListener("play", () => {
-    console.log("🎵 Lagu diputar");
+    console.log("agu diputar");
 });
 
 music.addEventListener("pause", () => {
-    console.log("⏸ Lagu dijeda");
+    console.log("jeda");
 });
 
 music.addEventListener("ended", () => {
-    console.log("🏁 Lagu selesai");
+    console.log("selesai");
 });
 
 music.addEventListener("error", () => {
-    console.log("❌ Audio gagal dimuat");
-    alert("File lagu.mp3 tidak ditemukan atau tidak bisa diputar.");
+    console.log("erorrrrrrr");
+    alert("not found");
 });
 
 // =======================
